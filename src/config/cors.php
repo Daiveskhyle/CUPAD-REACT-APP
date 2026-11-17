@@ -1,0 +1,5 @@
+'paths' => ['api/*', 'sanctum/csrf-cookie'],
+'allowed_methods' => ['*'],
+'allowed_origins' => ['http://localhost:8081', 'http://localhost:19006'],
+'allowed_headers' => ['*'],
+'supports_credentials' => true,
